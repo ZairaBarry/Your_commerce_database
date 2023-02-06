@@ -1,0 +1,27 @@
+{
+  "name": "your_commerce_database",
+  "version": "1.0.0",
+  "description": "commerce_database",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZairaBarry/Your_commerce_database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZairaBarry/Your_commerce_database/issues"
+  },
+  "homepage": "https://github.com/ZairaBarry/Your_commerce_database#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.0",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4"
+  }
+}
