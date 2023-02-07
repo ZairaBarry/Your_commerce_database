@@ -15,27 +15,26 @@ ProductTag.init(
     product_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Product',
-        key: id,
-        unique: false
+        model: 'product',
+        key: 'id',
       }
     },
     tag_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Tag',
-        key: id,
-        unique: false
+        model: 'tag',
+        key: 'id'
 
       }
     },
-  {
+  },
+   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'product_tag',
   }
-);
+) 
 
 module.exports = ProductTag;
